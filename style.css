@@ -1,0 +1,68 @@
+/*Adding a glow to the next and formatting it */
+.navHub div ,
+.navHub h1{
+    color: white;
+    display: inline-block;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 15px #fff,
+    0 0 2px #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 100px;
+    padding: 0 10px;
+    border-radius: 25px;
+
+}
+
+.navHub h1 {
+    font-size: 30px;
+}
+/*A little hover effect for the navhub */
+.navHub div:hover{
+    background-color: rgb(117, 20, 20);
+}
+/*Formatting the navhub */
+.navHub {
+    text-align: center;
+    margin: 0% auto;
+    max-width: 40%;
+    min-width: 40%;
+    line-height: 60px;
+    border-radius: 25px;
+}
+/* This sets all of the pages format and display to none */
+#page1,
+#page2,
+#page3,
+#page4 {
+    background-color: white;
+    border-color: rgb(10, 5, 5);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    max-width: 50%;
+    min-height: 700px;
+    margin: 30px auto;
+    text-align: center;
+    display: none;
+    border: 10px solid lightgray;
+}
+
+/*This sets it so when I click on the corresponding HREF for the page, only that page shows up */
+#page1:target,
+#page2:target,
+#page3:target,
+#page4:target{
+    display: block;
+}
+
+/*margins for paragraphs so it doesnt overlap with the border */
+p {
+    margin: 10px;
+}
+
+.cat-pic{
+    border-radius: 50%;
+    max-width: 10%;
+    max-height: 5%;
+}
